@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#FAF6EF;font-family:'Hanken Grotesk',system-ui,sans-serif;color:#1E1913;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+h1,h2,h3,h4,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+img{display:block;max-width:100%}
+section{scroll-margin-top:78px}
+@media (max-width:760px){.site-nav{display:none!important}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</helmet>
+<header style="position:sticky;top:0;z-index:50;background:rgba(250,246,239,.82);backdrop-filter:blur(12px);border-bottom:1px solid #EADFD0">
+<div style="max-width:1160px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px">
+<a href="index.html" style="display:flex;align-items:center;gap:10px"><svg width="26" height="26" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#C9BDA9" stroke-width="2.4"></circle><path d="M16 2 a14 14 0 0 1 11.5 21.9" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round"></path><circle cx="16" cy="16" r="3" fill="#8A4E6D"></circle></svg><span style="font:800 19px 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#1E1913">CalWatch</span><span style="font:600 10.5px 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:#F0E2E9;color:#8A4E6D;margin-left:2px">Scouts</span></a>
+<nav class="site-nav" style="display:flex;align-items:center;gap:26px"><a href="#so" style="font:600 14.5px 'Hanken Grotesk';color:#6B6154" style-hover="color:#1E1913">So funktioniert's</a><a href="#stufen" style="font:600 14.5px 'Hanken Grotesk';color:#6B6154" style-hover="color:#1E1913">Provision</a><a href="#kit" style="font:600 14.5px 'Hanken Grotesk';color:#6B6154" style-hover="color:#1E1913">Dein Kit</a><a href="#faq" style="font:600 14.5px 'Hanken Grotesk';color:#6B6154" style-hover="color:#1E1913">FAQ</a></nav>
+<a href="#start" style="display:inline-flex;align-items:center;gap:7px;background:#8A4E6D;color:#fff;font:600 14.5px 'Hanken Grotesk';padding:10px 18px;border-radius:11px;white-space:nowrap" style-hover="background:#743F5B">Partner werden <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</header>
+<section style="position:relative;overflow:hidden;padding:70px 28px 84px;background:radial-gradient(900px 480px at 50% 0%, #FFFDF8 0%, rgba(255,253,248,0) 62%), #FAF6EF">
+<div style="max-width:1040px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:48px;align-items:center">
+<div>
+<div style="display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid #EAD9BE;background:#F7EBD8;border-radius:999px;font:600 11.5px 'JetBrains Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#C0781C"><span style="width:6px;height:6px;border-radius:50%;background:#D6902A;display:block"></span>CalWatch Partnerprogramm</div>
+<h1 style="margin:22px 0 0;font:800 clamp(34px,6.5vw,54px)/1.06 'Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#1E1913">Deine Kunden bleiben leichter beim Tracking dran.<br>Du verdienst mit.</h1>
+<p style="margin:20px 0 0;max-width:520px;font:400 18px/1.6 'Hanken Grotesk',sans-serif;color:#6B6154">Viele Kunden scheitern nicht am Wissen, sondern am Eintragen. CalWatch macht Kalorientracking niedrigschwellig: <strong style="color:#1E1913;font-weight:600">Foto machen, ehrliche Spanne sehen, weitermachen.</strong> Deine Kunden bekommen mit deinem Code 10 % aufs Jahresabo — du erhältst bis zu 25 % Provision.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px">
+<a href="#start" style="display:inline-flex;align-items:center;gap:9px;background:#8A4E6D;color:#fff;font:600 16px 'Hanken Grotesk',sans-serif;padding:15px 28px;border-radius:13px;box-shadow:0 14px 26px -10px rgba(138,78,109,.6);white-space:nowrap;flex:none" style-hover="background:#743F5B">Partner-Code erstellen <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+<a href="#so" style="display:inline-flex;align-items:center;gap:9px;background:#FFFDFA;color:#1E1913;font:600 16px 'Hanken Grotesk',sans-serif;padding:15px 26px;border-radius:13px;border:1px solid #E6DAC8;white-space:nowrap;flex:none" style-hover="background:#F3ECE0">So funktioniert's</a>
+</div>
+<p style="margin-top:16px;font:500 13.5px 'Hanken Grotesk',sans-serif;color:#9C9285">Kostenlos · Self-Service · QR-Code inklusive · Auszahlung ab 50 €</p>
+</div>
+<div style="max-width:400px;margin:0 auto;width:100%">
+<div style="background:#FFFDFA;border:1px solid #EADFD0;border-radius:24px;padding:26px;box-shadow:0 28px 56px -32px rgba(60,44,20,.42)">
+<div style="font:600 10.5px 'JetBrains Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#B08A4E">Deine Partnerseite</div>
+<div style="margin-top:10px;font:600 13px 'JetBrains Mono',monospace;color:#8A4E6D">calwatch.io/s/max</div>
+<div style="margin-top:16px;padding:18px;border-radius:16px;background:#FAF6EF;border:1px solid #EADFD0">
+<div style="display:flex;align-items:center;gap:10px"><span style="width:36px;height:36px;border-radius:999px;background:#F0E2E9;display:grid;place-items:center;font:700 14px 'Bricolage Grotesque',sans-serif;color:#8A4E6D">M</span><div><div style="font:700 14.5px 'Bricolage Grotesque',sans-serif;color:#1E1913">Empfohlen von Max</div><div style="font:400 11.5px 'Hanken Grotesk',sans-serif;color:#9C9285">Personal Trainer, Köln</div></div></div>
+<p style="margin-top:12px;font:400 13.5px/1.55 'Hanken Grotesk',sans-serif;color:#6B6154">Foto machen, ehrliche Kalorienspanne sehen, dranbleiben — ohne Datenbankstress und ohne Perfektionsdruck.</p>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px;padding:10px 14px;border-radius:12px;background:#F3E7EE;border:1px dashed #D9B9CB">
+<span style="font:700 15px 'JetBrains Mono',monospace;letter-spacing:.06em;color:#743F5B">MAX10</span>
+<span style="font:600 11.5px 'Hanken Grotesk',sans-serif;color:#8A4E6D">10 % aufs Jahresabo</span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:14px;margin-top:16px">
+<div style="width:64px;height:64px;flex:none;border-radius:10px;background:#FFFDFA;border:1px solid #EADFD0;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(5,1fr);gap:2px;padding:7px">
+<span style="background:#1E1913;border-radius:1.5px"></span><span style="background:#1E1913;border-radius:1.5px"></span><span></span><span style="background:#1E1913;border-radius:1.5px"></span><span style="background:#1E1913;border-radius:1.5px"></span>
+<span style="background:#1E1913;border-radius:1.5px"></span><span></span><span style="background:#1E1913;border-radius:1.5px"></span><span></span><span style="background:#1E1913;border-radius:1.5px"></span>
+<span></span><span style="background:#1E1913;border-radius:1.5px"></span><span style="background:#8A4E6D;border-radius:1.5px"></span><span style="background:#1E1913;border-radius:1.5px"></span><span></span>
+<span style="background:#1E1913;border-radius:1.5px"></span><span></span><span style="background:#1E1913;border-radius:1.5px"></span><span></span><span></span>
+<span style="background:#1E1913;border-radius:1.5px"></span><span style="background:#1E1913;border-radius:1.5px"></span><span></span><span></span><span style="background:#1E1913;border-radius:1.5px"></span>
+</div>
+<p style="font:400 12.5px/1.5 'Hanken Grotesk',sans-serif;color:#9C9285">Dein QR-Code — für Studio-Poster, Story, Bio-Link oder WhatsApp-Gruppe. Wird automatisch erzeugt.</p>
+</div>
+<p style="margin-top:14px;font:400 10.5px/1.5 'JetBrains Mono',monospace;color:#B6A88F">Werbung / Empfehlungslink: Mit diesem Code erhältst du 10 % Rabatt. Der Empfehlende erhält eine Provision oder Guthaben.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="so" style="padding:80px 28px;background:#FFFDF8;border-top:1px solid #EADFD0">
+<div style="max-width:1040px;margin:0 auto">
+<div style="text-align:center;max-width:640px;margin:0 auto"><div style="display:inline-flex;align-items:center;gap:8px;font:600 12px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#C0781C">In drei Schritten</div><h2 style="margin-top:14px;font:800 clamp(28px,6vw,40px)/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#1E1913">Code erstellen. Teilen. Provision erhalten.</h2></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:40px">
+<div style="background:#FAF6EF;border:1px solid #EADFD0;border-radius:22px;padding:26px"><div style="font:800 34px/1 'Bricolage Grotesque';letter-spacing:-.02em;color:#E7D8BE">01</div><h3 style="margin-top:12px;font:700 19px 'Bricolage Grotesque',sans-serif;letter-spacing:-.01em;color:#1E1913">Code &amp; Seite erstellen</h3><p style="margin-top:8px;font:400 14.5px/1.6 'Hanken Grotesk',sans-serif;color:#6B6154">Name eingeben, Profil ergänzen, freigeben: Du bekommst deinen persönlichen Code, deine Partnerseite und deinen QR-Code. Deine Seite geht erst live, wenn du sie bestätigst.</p></div>
+<div style="background:#FAF6EF;border:1px solid #EADFD0;border-radius:22px;padding:26px"><div style="font:800 34px/1 'Bricolage Grotesque';letter-spacing:-.02em;color:#E7D8BE">02</div><h3 style="margin-top:12px;font:700 19px 'Bricolage Grotesque',sans-serif;letter-spacing:-.01em;color:#1E1913">Teilen, wo Vertrauen schon da ist</h3><p style="margin-top:8px;font:400 14.5px/1.6 'Hanken Grotesk',sans-serif;color:#6B6154">WhatsApp-Gruppe, Story, Bio-Link, Newsletter oder Poster im Studio — mit fertigen Vorlagen inklusive Werbehinweis. <b style="color:#1E1913;font-weight:600">Kein Spam. Keine Kalt-DMs. Keine Tricks.</b></p></div>
+<div style="background:#FAF6EF;border:1px solid #EADFD0;border-radius:22px;padding:26px"><div style="font:800 34px/1 'Bricolage Grotesque';letter-spacing:-.02em;color:#E7D8BE">03</div><h3 style="margin-top:12px;font:700 19px 'Bricolage Grotesque',sans-serif;letter-spacing:-.01em;color:#1E1913">Beide gewinnen</h3><p style="margin-top:8px;font:400 14.5px/1.6 'Hanken Grotesk',sans-serif;color:#6B6154">Dein Kunde bekommt 10 % aufs Jahresabo. Du erhältst Provision oder CalWatch-Guthaben — automatisch erfasst, 30 Tage nach Zahlung freigegeben und ab 50 € ausgezahlt.</p></div>
+</div>
+</div>
+</section>
+<section id="stufen" style="padding:80px 28px;background:#F3ECE0;border-top:1px solid #EADFD0">
+<div style="max-width:1040px;margin:0 auto">
+<div style="text-align:center;max-width:660px;margin:0 auto"><div style="display:inline-flex;align-items:center;gap:8px;font:600 12px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#C0781C">Provision</div><h2 style="margin-top:14px;font:800 clamp(28px,6vw,40px)/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#1E1913">Drei Stufen. Ein Prinzip: Wer echte Jahreskunden bringt, verdient mit.</h2><p style="margin-top:16px;font:400 17px/1.6 'Hanken Grotesk',sans-serif;color:#6B6154">Die Provision wird auf den tatsächlich bezahlten Netto-Umsatz des Jahresabos berechnet — ohne Mehrwertsteuer und nach Rabatt — und 30 Tage nach Zahlung freigegeben.</p></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;margin-top:38px;align-items:stretch">
+<div style="background:#FFFDFA;border:1px solid #EADFD0;border-radius:24px;padding:28px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 16px 'Bricolage Grotesque',sans-serif;color:#1E1913">Scout</span><span style="font:600 10.5px 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:999px;background:#F7EBD8;color:#C0781C">für Nutzer</span></div>
+<div style="margin-top:16px;font:800 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#1E1913">1 Gratis-Monat</div>
+<p style="margin-top:8px;font:400 14px/1.55 'Hanken Grotesk',sans-serif;color:#6B6154">je zahlendem Jahreskunden — landet direkt als CalWatch-Guthaben, ohne Papierkram.</p>
+<div style="margin-top:auto;padding-top:18px;border-top:1px solid #EADFD0;font:400 13px/1.55 'Hanken Grotesk',sans-serif;color:#9C9285">Für zufriedene Nutzer, die CalWatch im Freundeskreis teilen.</div>
+</div>
+<div style="background:linear-gradient(180deg,#FBF3F7,#FFFDF8);border:1.5px solid #D9B9CB;border-radius:24px;padding:28px;display:flex;flex-direction:column;box-shadow:0 30px 60px -30px rgba(96,49,74,.35)">
+<div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 16px 'Bricolage Grotesque',sans-serif;color:#743F5B">Coach</span><span style="font:600 10.5px 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:999px;background:#F0E2E9;color:#8A4E6D">beliebt</span></div>
+<div style="margin-top:16px;font:800 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#1E1913">20 % <span style="font:600 15px 'Hanken Grotesk',sans-serif;color:#9C9285">im 1. Jahr</span></div>
+<p style="margin-top:8px;font:400 14px/1.55 'Hanken Grotesk',sans-serif;color:#6B6154">+ 10 % auf Verlängerungen. Beispiel: 20 Jahreskunden ≈ <b style="color:#743F5B">148 €</b> im ersten Jahr — und Kunden, die beim Tracking leichter dranbleiben.</p>
+<div style="margin-top:auto;padding-top:18px;border-top:1px solid #E3CBD8;font:400 13px/1.55 'Hanken Grotesk',sans-serif;color:#9C9285">Für Personal Trainer, Ernährungscoaches und kleine Communities.</div>
+</div>
+<div style="background:#FFFDFA;border:1px solid #EADFD0;border-radius:24px;padding:28px;display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 16px 'Bricolage Grotesque',sans-serif;color:#1E1913">Power-Partner</span><span style="font:600 10.5px 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:999px;background:#F7EBD8;color:#C0781C">ab 50 zahlenden Jahreskunden</span></div>
+<div style="margin-top:16px;font:800 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#1E1913">25 % <span style="font:600 15px 'Hanken Grotesk',sans-serif;color:#9C9285">im 1. Jahr</span></div>
+<p style="margin-top:8px;font:400 14px/1.55 'Hanken Grotesk',sans-serif;color:#6B6154">Für Studios und Creator mit Reichweite: 50 Jahreskunden ≈ <b style="color:#1E1913">463 €</b> im ersten Jahr — individuelle Konditionen ab 250 Kunden.</p>
+<div style="margin-top:auto;padding-top:18px;border-top:1px solid #EADFD0;font:400 13px/1.55 'Hanken Grotesk',sans-serif;color:#9C9285">Automatisches Upgrade — kein Verhandeln nötig.</div>
+</div>
+</div>
+<p style="text-align:center;max-width:640px;margin:24px auto 0;font:400 13.5px/1.6 'Hanken Grotesk',sans-serif;color:#9C9285">Dein Kunde zahlt mit Code 44,10 € statt 49 € im ersten Jahr. Keine Provision auf Eigenempfehlungen, Refunds, missbräuchliche Nutzung oder nicht freigegebene Gutscheinportale.</p>
+</div>
+</section>
+<section id="kit" style="padding:80px 28px;background:#FFFDF8;border-top:1px solid #EADFD0">
+<div style="max-width:1040px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:center">
+<div>
+<div style="display:inline-flex;align-items:center;gap:8px;font:600 12px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#C0781C">Dein Kit</div>
+<h2 style="margin-top:14px;font:800 clamp(28px,6vw,40px)/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#1E1913">Alles vorbereitet. Du teilst es nur dort, wo es passt.</h2>
+<p style="margin-top:16px;font:400 17px/1.62 'Hanken Grotesk',sans-serif;color:#6B6154">Du bekommst alles vorbereitet: Texte, QR-Code, Partnerseite und die <b style="color:#1E1913;font-weight:600">7-Tage-CalWatch-Challenge</b>, mit der deine Kunden in einer Woche eine einfache Tracking-Routine aufbauen. Du entscheidest nur, wo du es teilst.</p>
+<p style="margin-top:14px;font:500 15px/1.55 'Hanken Grotesk',sans-serif;color:#8A6F49">Alle Vorlagen enthalten automatisch den Pflicht-Hinweis zur Werbekennzeichnung.</p>
+</div>
+<div style="background:#FAF6EF;border:1px solid #EADFD0;border-radius:24px;padding:28px;box-shadow:0 24px 50px -32px rgba(60,44,20,.4)">
+<div style="font:600 11px 'JetBrains Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:#C0781C">Automatisch erstellt</div>
+<ul style="margin-top:16px;display:flex;flex-direction:column;gap:13px">
+<li style="display:flex;gap:11px;align-items:flex-start;font:500 15px/1.4 'Hanken Grotesk';color:#3A342B"><svg width="18" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><path d="M20 6L9 17l-5-5"></path></svg>Persönlicher Code + Partnerseite (calwatch.io/s/du)</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:500 15px/1.4 'Hanken Grotesk';color:#3A342B"><svg width="18" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><path d="M20 6L9 17l-5-5"></path></svg>QR-Code für Poster, Theke, Story &amp; Bio-Link</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:500 15px/1.4 'Hanken Grotesk';color:#3A342B"><svg width="18" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><path d="M20 6L9 17l-5-5"></path></svg>7-Tage-Challenge als PDF für deine Kunden</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:500 15px/1.4 'Hanken Grotesk';color:#3A342B"><svg width="18" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><path d="M20 6L9 17l-5-5"></path></svg>WhatsApp-Texte, Story-Vorlagen, Newsletter-Absatz</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:500 15px/1.4 'Hanken Grotesk';color:#3A342B"><svg width="18" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><path d="M20 6L9 17l-5-5"></path></svg>Live-Übersicht: Klicks, Trials, Jahreskunden und Provision</li>
+</ul>
+</div>
+</div>
+</section>
+<section style="padding:80px 28px;background:#FAF6EF;border-top:1px solid #EADFD0">
+<div style="max-width:1040px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px">
+<div style="border:1px solid #E3CBD8;border-radius:22px;padding:30px;background:linear-gradient(180deg,#FBF3F7,#FFFDF8)">
+<div style="display:inline-flex;align-items:center;gap:8px;font:600 12px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#8A4E6D"><svg width="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4-3 6.9-7 8.5-4-1.6-7-4.5-7-8.5V6z"></path></svg>Vertrauen</div>
+<h3 style="margin-top:12px;font:800 24px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#1E1913">Du siehst keine privaten Ernährungsdaten. Punkt.</h3>
+<p style="margin-top:10px;font:400 15px/1.62 'Hanken Grotesk',sans-serif;color:#6B6154">Keine Mahlzeiten, keine Fotos, keine Gewichts- oder Gesundheitsdaten deiner Kunden. Du siehst nur, was du für dein Partnerkonto brauchst: Klicks, Trials, Jahreskunden und Provision. Ernährung ist privat — deshalb bleibt CalWatch auch im Partnerprogramm datensparsam.</p>
+</div>
+<div style="border:1px solid #EADFD0;border-radius:22px;padding:30px;background:#FFFDF8">
+<div style="font:600 12px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#C0781C">Spielregeln</div>
+<ul style="margin-top:14px;display:flex;flex-direction:column;gap:11px">
+<li style="display:flex;gap:11px;align-items:flex-start;font:400 14.5px/1.5 'Hanken Grotesk';color:#6B6154"><svg width="17" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg>Empfehlungen immer als Werbung kennzeichnen (steckt in allen Vorlagen)</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:400 14.5px/1.5 'Hanken Grotesk';color:#6B6154"><svg width="17" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg>Keine Gesundheits-, Heil- oder Abnehmversprechen</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:400 14.5px/1.5 'Hanken Grotesk';color:#6B6154"><svg width="17" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg>Keine Kalt-DMs, kein Spam, keine Fake-Accounts · keine Gutscheinportale ohne Freigabe</li>
+<li style="display:flex;gap:11px;align-items:flex-start;font:400 14.5px/1.5 'Hanken Grotesk';color:#6B6154"><svg width="17" viewBox="0 0 24 24" fill="none" stroke="#8A4E6D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6L9 17l-5-5"></path></svg>Provision 30 Tage nach Zahlung — keine Provision auf Eigenempfehlungen oder Refunds</li>
+</ul>
+<p style="margin-top:14px;font:400 12.5px/1.55 'Hanken Grotesk',sans-serif;color:#9C9285">CalWatch gibt Orientierung und ersetzt keine medizinische oder ernährungswissenschaftliche Beratung.</p>
+</div>
+</div>
+</section>
+<section id="faq" style="padding:80px 28px;background:#F3ECE0;border-top:1px solid #EADFD0">
+<div style="max-width:800px;margin:0 auto">
+<div style="text-align:center"><div style="display:inline-flex;align-items:center;gap:8px;font:600 12px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#C0781C">FAQ</div><h2 style="margin-top:14px;font:800 clamp(28px,6vw,40px)/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#1E1913">Kurz gefragt, ehrlich beantwortet.</h2></div>
+<div style="margin-top:34px;display:flex;flex-direction:column;gap:12px">
+<details open style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Wie und wann bekomme ich mein Geld?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Provisionen werden 30 Tage nach der Zahlung deines Kunden freigegeben — so schützen wir das Programm vor Refunds und Missbrauch. Ausgezahlt wird ab 50 € per Überweisung. Als Scout bekommst du statt Auszahlung Gratis-Monate direkt als CalWatch-Guthaben.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Worauf wird die Provision berechnet?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Auf den tatsächlich bezahlten Netto-Umsatz des Jahresabos — ohne Mehrwertsteuer und nach Rabatt. Beispiel: Dein Kunde zahlt mit Code 44,10 € brutto, das sind ca. 37,06 € netto — als Coach erhältst du davon 20 % (≈ 7,41 €). Eigenempfehlungen, Refunds, missbräuchliche Nutzung und nicht freigegebene Gutscheinportale sind ausgeschlossen.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Bekomme ich auch Provision auf Monatsabos?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Zum Start vergüten wir nur Jahresabos — das hält die Abrechnung einfach und belohnt Empfehlungen, bei denen Kunden wirklich länger starten. Monatsabos erscheinen in deiner Übersicht, lösen aber keine Provision aus.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Was sehe ich über meine Kunden — und was nicht?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Du siehst Klicks, gestartete Trials, abgeschlossene Jahresabos und deine Provision. Du siehst niemals Mahlzeiten, Fotos, Gewichts- oder Gesundheitsdaten. Diese Trennung ist fest eingebaut.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Muss ich meine Empfehlung als Werbung kennzeichnen?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Ja — sobald du Provision oder Guthaben erhältst, ist das rechtlich Werbung. Alle unsere Vorlagen enthalten den Hinweis bereits, du musst nichts formulieren.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Darf ich Menschen kalt anschreiben?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Nein. Das Partnerprogramm ist für Empfehlungen an Menschen gedacht, die dir folgen, bei dir trainieren oder in deiner Community sind. Keine Kalt-DMs, kein Spam, keine Fake-Accounts.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Was kostet CalWatch für meine Kunden?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">7 Tage kostenlos. Danach 4,90 € pro Monat (monatlich kündbar) oder 49 € pro Jahr (läuft jährlich). Mit deinem Code zahlen sie im ersten Jahr 44,10 € fürs Jahresabo. Kein Kurs, kein Kleingedrucktes.</div></details>
+<details style="border:1px solid #EADFD0;border-radius:16px;background:#FFFDF8;overflow:hidden"><summary style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;font:600 16.5px 'Hanken Grotesk';color:#1E1913">Ich bin kein Coach — kann ich trotzdem mitmachen?<svg width="18" viewBox="0 0 24 24" fill="none" stroke="#9C9285" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></summary><div style="padding:0 22px 20px;font:400 15px/1.62 'Hanken Grotesk';color:#6B6154">Ja. Als Scout bekommst du für jeden zahlenden Jahreskunden einen Gratis-Monat. Coach-Konditionen (20 %) gibt es für alle, die beruflich mit Training, Ernährung, Fitness, Gesundheit oder Communities arbeiten.</div></details>
+</div>
+</div>
+</section>
+<section id="start" style="position:relative;overflow:hidden;padding:92px 28px;background:radial-gradient(820px 480px at 50% -16%, #FFF7E9 0%, #F8E7CB 54%, #F1DBB6 100%);text-align:center">
+<svg width="560" height="560" viewBox="0 0 560 560" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);opacity:.75;pointer-events:none" aria-hidden="true"><circle cx="280" cy="280" r="258" fill="none" stroke="#EAD1A4" stroke-width="2"></circle><circle cx="280" cy="280" r="180" fill="none" stroke="#EFDCB6" stroke-width="2"></circle></svg>
+<div style="position:relative;max-width:560px;margin:0 auto">
+<h2 style="font:800 clamp(30px,7vw,46px)/1.06 'Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#2A1D0E">Dein Code wartet schon.</h2>
+<p style="margin-top:16px;font:400 18px/1.55 'Hanken Grotesk';color:#8A6F49">Schreib uns kurz, wer du bist — wir melden uns innerhalb von 48 Stunden mit deinem Code, deiner Partnerseite und deinem Kit. Kostenlos.</p>
+<form id="partner-form" style="margin-top:28px;background:#FFFDFA;border:1px solid #EADFD0;border-radius:20px;padding:26px;box-shadow:0 24px 50px -30px rgba(60,44,20,.4);display:flex;flex-direction:column;gap:14px;text-align:left">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px">
+<label style="display:flex;flex-direction:column;gap:6px;font:600 12.5px 'Hanken Grotesk',sans-serif;color:#6B6154">Dein Name
+<input name="name" type="text" required="required" placeholder="Max Mustermann" style="font:400 15px 'Hanken Grotesk',sans-serif;color:#1E1913;background:#FAF6EF;border:1px solid #E6DAC8;border-radius:11px;padding:12px 14px;outline:none" style-focus="border-color:#8A4E6D">
+</label>
+<label style="display:flex;flex-direction:column;gap:6px;font:600 12.5px 'Hanken Grotesk',sans-serif;color:#6B6154">Deine E-Mail
+<input name="email" type="email" required="required" placeholder="max@studio.de" style="font:400 15px 'Hanken Grotesk',sans-serif;color:#1E1913;background:#FAF6EF;border:1px solid #E6DAC8;border-radius:11px;padding:12px 14px;outline:none" style-focus="border-color:#8A4E6D">
+</label>
+</div>
+<label style="display:flex;flex-direction:column;gap:6px;font:600 12.5px 'Hanken Grotesk',sans-serif;color:#6B6154">Ich bin …
+<select name="typ" style="font:400 15px 'Hanken Grotesk',sans-serif;color:#1E1913;background:#FAF6EF;border:1px solid #E6DAC8;border-radius:11px;padding:12px 14px;outline:none;appearance:auto">
+<option>Scout — ich empfehle privat weiter</option>
+<option>Coach / Trainer:in — ich arbeite mit Kunden</option>
+<option>Studio / Creator — ich habe Reichweite</option>
+</select>
+</label>
+<label style="display:flex;flex-direction:column;gap:6px;font:600 12.5px 'Hanken Grotesk',sans-serif;color:#6B6154">Kurz zu dir <span style="font-weight:400;color:#9C9285">(optional — Studio, Instagram, Community …)</span>
+<textarea name="nachricht" rows="3" placeholder="z. B. Personal Trainer in Köln, ca. 30 aktive Kunden" style="font:400 15px 'Hanken Grotesk',sans-serif;color:#1E1913;background:#FAF6EF;border:1px solid #E6DAC8;border-radius:11px;padding:12px 14px;outline:none;resize:vertical" style-focus="border-color:#8A4E6D"></textarea>
+</label>
+<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#8A4E6D;color:#fff;font:700 16px 'Hanken Grotesk',sans-serif;padding:15px;border-radius:13px;border:0;cursor:pointer;box-shadow:0 16px 32px -12px rgba(138,78,109,.45)" style-hover="background:#743F5B">Partner-Code anfragen <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></button>
+<p id="partner-form-note" style="font:400 12px/1.5 'Hanken Grotesk',sans-serif;color:#9C9285;text-align:center">Öffnet deine E-Mail-App mit fertiger Nachricht an <b style="color:#6B6154">partner@calwatch.io</b> — oder schreib uns direkt.</p>
+</form>
+<p style="margin-top:16px;font:500 13px 'JetBrains Mono',monospace;letter-spacing:.04em;color:#9A7C50">Scout · Coach 20 % · Power-Partner 25 % · Auszahlung ab 50 €</p>
+</div>
+</section>
+<footer style="background:#291E28;color:#EDE6DC;padding:52px 28px 40px">
+<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start;justify-content:space-between">
+<div style="max-width:300px"><div style="display:flex;align-items:center;gap:10px"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="rgba(255,255,255,.35)" stroke-width="2.4"></circle><path d="M16 2 a14 14 0 0 1 11.5 21.9" stroke="#BE93AD" stroke-width="2.6" stroke-linecap="round"></path><circle cx="16" cy="16" r="3" fill="#BE93AD"></circle></svg><span style="font:800 19px 'Bricolage Grotesque';letter-spacing:-.02em;color:#fff">CalWatch</span></div><p style="margin-top:14px;font:400 14px/1.6 'Hanken Grotesk';color:#A79D8E">Der KI-Kalorientracker, der ehrlich schätzt. Foto machen, fertig — keine Punkte, keine Datenbank, kein Druck.</p></div>
+<div style="display:flex;gap:56px;flex-wrap:wrap">
+<div><div style="font:600 11px 'JetBrains Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#8A8072">Produkt</div><div style="margin-top:14px;display:flex;flex-direction:column;gap:11px;font:500 14.5px 'Hanken Grotesk'"><a href="index.html" style="color:#D9D1C4" style-hover="color:#fff">Startseite</a><a href="index.html#preise" style="color:#D9D1C4" style-hover="color:#fff">Preise</a><a href="index.html#faq" style="color:#D9D1C4" style-hover="color:#fff">FAQ</a><a href="vergleiche.html" style="color:#D9D1C4" style-hover="color:#fff">Vergleiche</a></div></div>
+<div><div style="font:600 11px 'JetBrains Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#8A8072">Partner</div><div style="margin-top:14px;display:flex;flex-direction:column;gap:11px;font:500 14.5px 'Hanken Grotesk'"><a href="#so" style="color:#D9D1C4" style-hover="color:#fff">So funktioniert's</a><a href="#stufen" style="color:#D9D1C4" style-hover="color:#fff">Provision</a><a href="#start" style="color:#D9D1C4" style-hover="color:#fff">Partner werden</a></div></div>
+<div><div style="font:600 11px 'JetBrains Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#8A8072">Rechtliches</div><div style="margin-top:14px;display:flex;flex-direction:column;gap:11px;font:500 14.5px 'Hanken Grotesk'"><a href="impressum.html" style="color:#D9D1C4" style-hover="color:#fff">Impressum</a><a href="datenschutz.html" style="color:#D9D1C4" style-hover="color:#fff">Datenschutz</a></div></div>
+</div>
+</div>
+<div style="max-width:1160px;margin:36px auto 0;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;font:500 12.5px 'JetBrains Mono',monospace;color:#8A8072"><span>© 2026 CalWatch · Partnerprogramm</span><span>calwatch.io/scouts</span></div>
+</footer>
+</x-dc>
+<script>
+document.addEventListener('submit',function(e){
+var f=e.target;
+if(!f||f.id!=='partner-form')return;
+e.preventDefault();
+var v=function(n){var el=f.querySelector('[name="'+n+'"]');return el?el.value.trim():''};
+var note=document.getElementById('partner-form-note');
+if(!v('name')||!v('email')){if(note){note.textContent='Bitte füll Name und E-Mail aus — dann können wir dir deinen Code schicken.';note.style.color='#B0452B'}return}
+var body='Hallo CalWatch-Team,%0D%0A%0D%0Aich möchte Partner werden.%0D%0A%0D%0AName: '+encodeURIComponent(v('name'))+'%0D%0AE-Mail: '+encodeURIComponent(v('email'))+'%0D%0AKategorie: '+encodeURIComponent(v('typ'))+(v('nachricht')?'%0D%0A%0D%0AZu mir:%0D%0A'+encodeURIComponent(v('nachricht')):'')+'%0D%0A%0D%0AViele Grüße';
+var subject=encodeURIComponent('Partner-Anfrage: '+v('name'));
+window.location.href='mailto:partner@calwatch.io?subject='+subject+'&body='+body;
+if(note){note.textContent='Danke! Falls sich keine E-Mail-App geöffnet hat: schreib uns direkt an partner@calwatch.io — mit Name und Kategorie.';note.style.color='#743F5B'}
+});
+</script>
+</body>
+</html>
